@@ -95,5 +95,23 @@ describe('MoonStatus', function(){
     });
   });
 
+  describe('When options.disk is false', function() {
+    var options = {
+      disk: false
+    };
+    it('should return undefined disk property', function(done){
+      moonStatus.init(options, function(err, result){
+        should.not.exist(err);
+        should.exist(result);
+        result.should.have.property('Disk',undefined);
+        result.should.not.have.propertyByPath('Disk', 'total');
+        result.should.not.have.propertyByPath('Disk', 'free');
+        result.should.not.have.propertyByPath('Disk', 'status');
+        result.should.not.have.propertyByPath('Disk', 'percentageDisk');
+        done();
+      });
+    });
+  });
+
 });
 

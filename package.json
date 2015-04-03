@@ -1,6 +1,6 @@
 {
   "name": "moonstatus",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Monitor your app return a json with your app cpu, memory usage",
   "main": "index.js",
   "scripts": {
