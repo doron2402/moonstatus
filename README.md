@@ -8,7 +8,7 @@
 
 
 ## Getting Started
-
+  ```javascript
   var ms = require('moonstatus');
   ms.init({drive: '/'}, function(err, result) {
     //result will contain all the values you need.
@@ -41,9 +41,10 @@
       }
     }
   });
-
+  ```
 
 ### When Using Express
+  ```javascript
   var ms = require('moonstatus');
   app.get('/instance/status', function(request, response){
     ms.init({drive: '/'}, function(err, result) {
@@ -53,8 +54,9 @@
       return response.send(result);
     });
   });
-
+  ```
 ### When Using Hapi.js
+  ```javascript
   var ms = require('moonstatus');
   server.route({
     method: 'GET',
@@ -68,6 +70,6 @@
       });
     }
   });
-
+  ```
 
 ## Good Luck!
