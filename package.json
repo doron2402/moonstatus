@@ -1,5 +1,5 @@
 {
-  "name": "MoonStatus",
+  "name": "moonstatus",
   "version": "0.0.1",
   "description": "Monitor your app return a json with your app cpu, memory usage",
   "main": "index.js",
@@ -26,5 +26,8 @@
   "homepage": "https://github.com/doron2402/moonstatus",
   "dependencies": {
     "async": "^0.9.0"
+  },
+  "devDependencies": {
+    "should": "^5.2.0"
   }
 }
