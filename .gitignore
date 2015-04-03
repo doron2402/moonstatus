@@ -1,0 +1,10 @@
+node_modules
+npm-debug.log
+._*
+*/._*
+npm-shrinkwrap.json
+config.json
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+

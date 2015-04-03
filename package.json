@@ -1,0 +1,27 @@
+{
+  "name": "MoonStatus",
+  "version": "0.0.1",
+  "description": "Monitor your app return a json with your app cpu, memory usage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doron2402/moonstatus.git"
+  },
+  "keywords": [
+    "express",
+    "hapi.js",
+    "monitor",
+    "usage",
+    "cpu",
+    "memory"
+  ],
+  "author": "Doron Segal <doron2402@gmail.com> (http://www.segaldoron.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doron2402/moonstatus/issues"
+  },
+  "homepage": "https://github.com/doron2402/moonstatus"
+}
